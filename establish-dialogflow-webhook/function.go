@@ -52,7 +52,7 @@ func confirm(request webhookRequest) (webhookResponse, error) {
 	// Create a text message that utilizes the "size" and "color"
 	// parameters provided by the end-user.
 	// This text message is used in the response below.
-	t := fmt.Sprintf("You can pick up your order for a %s %s shirt in 5 days.",
+	t := fmt.Sprintf("You can pick up your order for a %s %s hoodie in 5 days.",
 		request.SessionInfo.Parameters["size"],
 		request.SessionInfo.Parameters["color"])
 
